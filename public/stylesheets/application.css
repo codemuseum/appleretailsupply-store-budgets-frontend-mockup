@@ -1,6 +1,23 @@
 body #hero { background: #fff url(../images/iphone-apps-upload-hero.jpg)  }
 .submit { text-align:center;}
 
+
+/* -- navigation --- */
+
+#navigation {float:left; width:182px;}
+#navigation h2 {font-weight:bold; letter-spacing:-1px;}
+#navigation a {color:#8C8C8C; display:block; line-height:40px; text-decoration:none; background:transparent url(http://images.apple.com/iphone/images/fn_arrow_grey.gif) no-repeat scroll 95% 12px;}
+#navigation a:hover {color:#0088CC; background:transparent url(http://images.apple.com/iphone/images/fn_arrow_blue.gif) no-repeat scroll 95% 12px;text-decoration:none;}
+#navigation a.selected {background:#F2F2F2 url(http://images.apple.com/iphone/images/fn_arrow_black.gif) no-repeat scroll 95% 12px; color:#333333;}
+#nav-content-area { margin-left: 182px; border-left:1px solid #ccc;  }
+#nav-content-area.with-quarter-nav {margin-left:362px;}
+#navigation span.missing {padding:0px 8px; color:#fff; text-shadow:#30394a -1px -1px 1px; background:#a02525 url(/images/declined-bg.png) repeat-x; border-color:#761010; -webkit-border-radius:12px; }
+
+#navigation-2nd {float:left; width:180px; background-color:#fff;  border-left:1px solid #bbbbbb; padding:10px 0px; font-size:75%;}
+#navigation-2nd a {color:#000; text-decoration:none;}
+#navigation-2nd a:hover { text-decoration:underline;}
+
+/* -- errors -- */
 .errorExplanation { border:1px solid #990000; margin:20px; color:#990000; padding:10px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
 #main .errorExplanation h2 { display:none;  }
 
