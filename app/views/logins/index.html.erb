@@ -1,0 +1,58 @@
+
+<div class="column first span_8">
+  
+
+  <h2>Sign in to access the Store Budgets Application</h2>
+
+  <form method="get" action="/fiscal_years/1">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"/>
+
+    <div id="content">
+      <div id="upload">
+        <div class="grayform">
+          <table width="100%" cellpadding="4" cellspacing="0" border="0">
+            <tr>
+              <td class="nopad"><label for="fn" accessKey="f">Email:</label><span class="required">*</span></td>
+              <td class="nopad"><label for="ln" accessKey="l">Password:</label><span class="required">*</span></td>
+            </tr>
+            <tr>
+              <td><div class="fieldWithErrors"><input onkeyup="javascript:validateMandatoryInfo();" maxlength="42" class="width250 text" id="fn" type="text" name="firstname" /></div><br><span id="errorFirstName"></span></td>
+              <td><input onkeyup="javascript:validateMandatoryInfo();" maxlength="42" class="width250 text" id="ln" type="password" name="lastname" /><br><span id="errorLastName"></span></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+            </tr>
+
+          </table>
+          <div class="submit nopad">
+            <%= submit_tag "Sign In" %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div> <!-- /span_8 -->
+
+<div id="login_box" class="column last">
+<h3>How it Works</h3>
+<ol>
+  <li><h4>Download the Spend Template.</h4>Select the template for the week(s) of store spends you're hoping to upload.</li>
+  <li><h4>Fill in the Spend Template.</h4>Using Numbers or Excel, fill in the template with store spends.</li>
+  <li><h4>Upload the Spend Template.</h4>Upload the template back to this website.</li>
+</ol>
+</div> <!-- /span_4 -->
+
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+

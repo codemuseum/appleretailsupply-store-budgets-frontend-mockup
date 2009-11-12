@@ -1,0 +1,277 @@
+body #hero { background: #fff url(../images/iphone-apps-upload-hero.jpg)  }
+.submit { text-align:center;}
+
+.errorExplanation { border:1px solid #990000; margin:20px; color:#990000; padding:10px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+#main .errorExplanation h2 { display:none;  }
+
+#main .errorExplanation > p {margin:0; font-size:100%; color:#990000; font-weight:bold; margin-bottom:1em;}
+#main .errorExplanation > ul {margin:0;list-style:none;}
+.fieldWithErrors {display:inline; color:#990000;}
+
+ul {
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin-bottom:18px;
+}
+
+.submit input {
+  -x-system-font:none;
+  color:#404048;
+  font-family:"Myriad Set","Lucida Grande",Helvetica,Arial,sans-serif;
+  font-size:20px;
+  font-size-adjust:none;
+  font-stretch:normal;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:28px;
+}
+
+/* @group FORM */
+#upload .text {
+  -x-system-font:none;
+  color:#404048;
+  font-family:"Myriad Set","Lucida Grande",Helvetica,Arial,sans-serif;
+  font-size:20px;
+  font-size-adjust:none;
+  font-stretch:normal;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:28px;
+  padding:4px;
+}
+
+#upload .required {
+  color:red;
+  font-weight:bold;
+}
+
+.grayform {
+  color:#404048;
+  font-family:"Lucida Grande",Helvetica,Arial,sans-serif;
+  font-size:17px;
+  font-size-adjust:none;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+#upload .nopad {
+  padding-bottom:0;
+  padding-left:4px;
+  padding-top:12px;
+}
+.nopad {
+  margin:0;
+  padding:0;
+}
+/* @group UTILITY */
+img	{
+  border: 0;
+}
+
+
+form {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+abbr, acronym, .help {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+  margin: 0;
+  padding: 0;
+}
+
+.padded {
+  padding: 4px;
+}
+
+
+.nopad {
+  margin: 0px;
+  padding: 0px;
+}
+
+.subHead {
+  color: #76797C;
+  font: 22px/30px "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
+  margin-bottom: -18px;
+  padding: 0;
+  width: 800px;
+  margin-top: 16px;
+}
+
+.clearer {
+  clear: both; 
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* @end */
+
+/* @group SIZING */
+
+.text110 {
+  width: 120px;
+  font-size: x-small;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.text20{
+  height: 20px;
+  font-size: 15px;
+}
+
+.width50 {
+  width: 50px;
+  font-size: x-small;
+}
+
+.width125 {
+  width: 125px;
+}
+
+.width150 {
+  width: 150px;
+}
+
+.width180 {
+  width: 180px;
+}
+
+.width200 {
+  width: 200px;
+}
+.width225 {
+  width: 225px;
+}
+.width250 {
+  width: 250px;
+}
+.width275 {
+  width: 275px;
+}
+.width300 {
+  width: 300px;
+}
+
+.width400 {
+  width: 400px;
+}
+
+.width450 {
+  width: 450px;
+}
+
+.width525 {
+  width: 525px;
+}
+
+.width550 {
+  width: 550px;
+}
+
+.width600 {
+  width: 600px;
+}
+
+.width610 {
+  width: 610px;
+}
+
+.percent25 {
+  width: 25%;
+}
+
+.percent33 {
+  width: 33%;
+}
+
+
+.percent50 {
+  width: 50%;
+}
+
+.commentstext {
+  color: #404048;
+  height: 100px;
+}
+
+/* @end */
+
+.blue-button {
+  font: bold 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 97px;
+  height: 30px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 11px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  background: url(../images/buttons/blue-button.png) no-repeat;
+}
+
+.big-blue-button {
+  font: bold 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 197px;
+  height: 30px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 11px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  background: url(../images/buttons/big-blue.png) no-repeat;
+}
+
+.blue-button:hover .hilite {
+  width: 97px;
+  height: 41px;
+  color: black;
+  top: 0px;
+  display: block;
+  background-image: url(../images/buttons/big-hilite.png);
+  background-repeat: no-repeat;
+  z-index: 120;
+  position: absolute;
+}
+
+.bottomText{
+  color: #59aed7;
+  font-weight: bold;
+  font-size:10px	
+}
+.centered {
+  margin: 0px auto;
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+.show {
+  visibility: visible;
+  display: block;
+}
