@@ -1,0 +1,41 @@
+<script type="text/javascript">
+  var uploadTemplate = "<div class='facebox-text'>Upload Filled-In Template: "+'<input type="file"/>'+"</div>"+
+    "<div class='center-text top_pad'><a href='#' class='green-button'>Upload File</a></div>";
+</script>
+
+<%= render :partial => 'shared/side_nav'%>
+<%= render :partial => 'shared/quarter_nav'%>
+<div id="nav-content-area" class="with-quarter-nav">
+  
+  
+  <div class="center-text">
+    <h1>Fiscal Year 2009</h1>
+    <h2>Week of November 9, 2009 - November 15, 2009</h2>
+    
+    <p><br/><br/>Spends Uploaded on November 8, 2009 <%=link_to "Download Uploaded Report", '/file.xls', :class => 'main-content-button' %>
+      <br/><br/><br/><br/><br/><br/></p>
+    
+    <h2>Made a Mistake?</h2>
+    <p>  You can replace the uploaded file by downloading the template, filling it in, and uploading it again.</p>
+    <p>
+      <br/>
+      1.
+      <%=link_to "Download Template", '/file.xls', :class => 'main-content-button' %>
+    </p>
+    
+    <p>
+      <em>Optional: if you'd like, the template can span multiple weeks: <br/>Starting Week <select><option>Week 1: 9/28/09 - 10/2/09</option><option>Week 2: 10/2/09 - 10/12/09</option></select> <br/>&nbsp;-to-&nbsp; <br/>Ending Week <select><option>Week 1: 9/28/09 - 10/2/09</option><option>Week 2: 10/2/09 - 10/12/09</option></select></em>
+    </p>
+    
+    <p>
+      <br/>
+      <br/>
+      2.
+      <%=link_to "Upload Filled-In Template", 'javascript:jQuery.facebox(uploadTemplate)', :class => 'main-content-button' %>
+    </p>
+    
+  </div>
+  
+  
+  <div class="clear"></div>
+</div>
